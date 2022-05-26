@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="User Input, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Emilie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="manifest" href="./fav/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Repeat Sentence in JS</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+	  
+    <h1>Repeat Sentence in JS</h1>
+	<h3>This program will display the sentence the number of times you want:</h3>
+	<table>
+		<tr align = "center">
+			<td valign="top" align="right">					
+				<form action="javascript:findFactorial()">	
+					<label for="userNum">Enter a Positive number:</label>
+					<input type="number" id="userNum" step="1" min="0"><br><br>
+					<br><br>		
+					<input type="submit" value="Factorial" onclick="findFactorial()">
+				</form>
+			</td>
+			<td valign="top" align="left">
+				<img src="./images/theg.jfif" alt="Sentences" width="75%">
+			</td>
+		</tr>
+	</table>	
+	<!-- Create a space where the user information will be displayed -->
+    <h4>The prodcut is:</h4>
+	<div  id="display-results">			
+	</div>
+	
+  </body>
+</html>
